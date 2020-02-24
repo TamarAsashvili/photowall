@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import PhotoWall from './PhotoWall'
 import AddPhoto from './AddPhoto';
 import { Route, Link } from 'react-router-dom'
-import Single from './Single'
+import Single from './Single';
+
+
 
 
 class Main extends Component {
@@ -28,6 +30,9 @@ class Main extends Component {
                 <h1>
                     <Link to='/'>PhotoWall</Link>
                 </h1>
+
+
+
                 <Route exact path="/" render={() => (
                     <div>
                         <PhotoWall {...this.props} />
@@ -44,7 +49,6 @@ class Main extends Component {
                     <Single loading={this.state.loading} {...this.props} {...params} />
 
                 )} />
-
 
             </div >
         )

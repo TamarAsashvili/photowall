@@ -12,7 +12,7 @@ class Single extends Component {
         if (this.props.loading === true) {
             return (
                 <div className='load'>
-                    <h2>loading .....</h2>
+                    <h2>loading...</h2>
                     <div className="loading-container">
                         <div className="circle"></div>
                         <div className="circle"></div>

@@ -263,3 +263,12 @@ justify-content: center;
 	}
 }
 
+
+
+/*React-leaflet styles*/
+#mapid { height: 180px; }
+
+.leaflet-container {
+    height: 600px;
+    width: 100%;
+}
